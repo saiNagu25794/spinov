@@ -1,0 +1,31 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pydantic = "*"
+fastapi = "*"
+aiomysql = "*"
+aiohttp = "*"
+uvicorn = "*"
+email-validator = "*"
+orjson = "*"
+starlette = "*"
+cryptography = "*"
+passlib = "*"
+anyio = "*"
+gunicorn = "*"
+firebase-admin = "*"
+requests = "*"
+boto3 = "*"
+botocore = "*"
+sendgrid = "*"
+
+[dev-packages]
+factory-boy = "==3.2.1"
+faker = "==17.6.0"
+pytest = "==7.2.2"
+
+[requires]
+python_version = "3.11"
